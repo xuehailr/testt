@@ -1,0 +1,9 @@
+<ehcache>
+	<cache name="tokenCache"
+		   eternal="false"
+		   maxElementsInMemory="10000"
+		   timeToIdleSeconds="18"
+		   timeToLiveSeconds="18"
+		   overflowToDisk="false">
+	</cache>
+</ehcache>
